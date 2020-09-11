@@ -10,7 +10,7 @@ This repository demonstrates how to use the IBM MQ connector. Two connectors wil
 make build
 make cluster
 # wait a minute for cluster to spinup
-# Confluent Kafka cluster can be at localhost:9021/
+# Confluent Kafka cluster can be found at localhost:9021/
 ```
 
 ## Make the topics and connectors
