@@ -10,6 +10,7 @@ This repository demonstrates how to use the IBM MQ connector. Two connectors wil
 make build
 make cluster
 # wait a minute for cluster to spinup
+# Confluent Kafka cluster can be at localhost:9021/
 ```
 
 ## Make the topics and connectors
@@ -42,6 +43,7 @@ You need to send a message to IBM MQ before the schema will appear in the topic 
 
 - Add a message
 
+Add a message to the Local Queue by clicking the Create+ and input Antonio_0966 into the Application Data field.
 ![add image](images/addmessage.png)
 ![add image](images/addmessage2.png)
 
